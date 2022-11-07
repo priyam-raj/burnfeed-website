@@ -5,6 +5,11 @@ html, body {
     height: 100%; /* IMPORTANT!!! stretches viewport to 100% */
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -73,14 +78,15 @@ body.preload *{
   opacity: 0;
   transform: translateY(40px);
   transition: transform 0.75s, opacity 0.75s;
+  padding-top: 50px;
 }
 
 #appCaption {
+  max-width: 480px;
   color: #EB4C00;
   font-family: 'Nunito';
   font-weight: 300;
   margin-bottom: 30px;
-  text-align: center;
   font-size: 23px;
   opacity: 0;
   transform: translateY(40px);
@@ -131,6 +137,16 @@ body.preload *{
   text-align: center;
   font-size: 1.3rem;
   margin-top: 5px;
+}
+
+.imageContainer{
+  text-align: center;
+}
+
+.brandImage {
+  max-width: 360px;
+  border-radius: 16px;
+  padding: 10px;
 }
 
 .contactLink {
