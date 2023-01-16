@@ -101,6 +101,12 @@ body.preload *{
   transition: transform 0.75s, opacity 0.75s;
 }
 
+#appCaption2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 11px;
+}
+
 #appDownloadButton {
   opacity: 0;
   transform: translateY(40px);
